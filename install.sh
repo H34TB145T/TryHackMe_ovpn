@@ -4,7 +4,7 @@ if [ "$user" == "root" ];
 then
         sudo apt install xclip
         echo "--------------------------------------------"
-        echo "Please enter the path to your VPN file:"
+        echo "Please enter the path to your .ovpn VPN file:"
         read vpn_path
         echo "$vpn_path" > vpn_path.config
         echo "vpn_path.config file created!"
