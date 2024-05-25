@@ -7,7 +7,7 @@ their opvn file but in the backgound of your system without populating the termi
 and copy the running interface's IP address into your clipboard automatically.
 So you don't need to run all the steps. You can kill your ongoing openvpn VPN connection too.
 
-**NOTE: This cript is only compatible on Linux.**
+**NOTE: This script is only compatible on Linux.**
 
 
 ## Installation
