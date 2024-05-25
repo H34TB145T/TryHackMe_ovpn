@@ -1,4 +1,10 @@
 #!/bin/bash
+
+echo "++++++++++++++++++++++++++++++++++++++++++++"
+echo "|------- DEVELOPED BY H34TB145T -----------|"
+echo "|-------     TryHackMe_opvn     -----------|"
+echo "++++++++++++++++++++++++++++++++++++++++++++"
+
 user=`whoami`
 
 if [ -f vpn_path.config ]; then
