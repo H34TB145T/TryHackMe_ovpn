@@ -14,8 +14,11 @@ then
         
         if true
         then
-                echo "Installation completed."
-                echo "-------- Type 'sudo thmvpn' to run ---------"
+        	echo "++++++++++++++++++++++++++++++++++++++++++++"
+	       	echo "|------- Installation completed. ----------|"
+	        echo "|------- DEVELOPED BY H34TB145T -----------|"
+	        echo "|----- Type 'sudo thmvpn' to run ----------|"
+	        echo "++++++++++++++++++++++++++++++++++++++++++++"
         else
                 echo "Failed! Try reinstalling again!"
         fi
