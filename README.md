@@ -1,9 +1,9 @@
-# TryHackMe one enter press .opvn file connect 
+# TryHackMe one enter press .ovpn file connect 
 Developed By **H34TB145T**
 
 ## Description
 The aim of the script is to connect to the **TryHackMe** network using 
-their opvn file but in the backgound of your system without populating the terminal space
+their .ovpn file but in the backgound of your system without populating the terminal space
 and copy the running interface's IP address into your clipboard automatically.
 So you don't need to run all the steps. You can kill your ongoing openvpn VPN connection too.
 
@@ -20,7 +20,7 @@ So you don't need to run all the steps. You can kill your ongoing openvpn VPN co
 
 **Step 2.** Run ```install.sh``` file by the command ```sudo bash install.sh```
 
-**Step 3.** While installing, it will ask for your **.opvn** file, put the full path of it. When you press enter, a file called `vpn_path.config` will be created!
+**Step 3.** While installing, it will ask for your **.ovpn** file, put the full path of it. When you press enter, a file called `vpn_path.config` will be created!
 
 **Step 4.** When the installation is done, you can just type ```sudo thmvpn``` command or run ```bash THM_VPN.sh``` to start working!
 
