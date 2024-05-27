@@ -1,4 +1,4 @@
-# TryHackMe one enter press .ovpn file connect 
+# An automation Bash script to connect and disconnect TryHackMe “.ovpn” VPN in the background process
 Developed By **H34TB145T**
 
 ## Description
