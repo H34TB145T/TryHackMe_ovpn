@@ -7,18 +7,17 @@ echo "++++++++++++++++++++++++++++++++++++++++++++"
 
 user=`whoami`
 
-if [ -f vpn_path.config ]; then
-    vpn_path=$(cat vpn_path.config)
-else
-    echo "vpn_path.config file not found. Please run the install.sh script first."
-    exit 1
-fi
-
 if [ ! "$user" == "root" ]
 then 
 	echo "You have no priviledge!"
 	exit 1
 else
+	if [[ -f /bin/vpn_path.config || -f /usr/bin/vpn_path.config ]]; then
+    		vpn_path=$(cat /bin/vpn_path.config)
+	else
+    		echo "vpn_path.config file not found. Please run the install.sh script first."
+    		exit 1
+	fi
 	#pid_opvn=`pgrep openvpn`
 	if pgrep -x "openvpn" > /dev/null
 	then
